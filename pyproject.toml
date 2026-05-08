@@ -1,11 +1,12 @@
 [project]
 name = "ai-counselor"
-version = "1.0.0"
+version = "2.0.0"
 description = "高校辅导员助手 - AI Counselor"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
     "openai>=1.30.0",
     "python-dotenv>=1.0.0",
     "fastapi>=0.115.0",
     "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.0.0",
 ]
